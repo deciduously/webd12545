@@ -30,3 +30,23 @@ nav ul a:active {
 nav ul a:link {
     color: orangered;
 }
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.info {
+    width: 33%;
+    float: left;
+}
+
+.posts {
+    width: 33%;
+    float: left;
+}
+
+.demos {
+    width: 33%;
+    float: right;
+}
