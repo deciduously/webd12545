@@ -11,8 +11,35 @@ p {
     font-style: italic
 }
 
+nav {
+    position: fixed;
+    top: 0;
+}
+
 nav ul {
-    list-style-type: square;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px dotted;
+    border-bottom: 1px dotted;
+}
+
+nav ul li a {
+    display: block;
+    padding: 6px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 12px;
 }
 
 nav ul a:visited {
@@ -21,10 +48,12 @@ nav ul a:visited {
 
 nav ul a:hover {
     font-weight: bold;
+    background-color: burlywood;
 }
 
 nav ul a:active {
     color: greenyellow;
+    background-color: darkcyan;
 }
 
 nav ul a:link {
@@ -32,8 +61,10 @@ nav ul a:link {
 }
 
 .wrapper {
+    margin-top: 40px;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
+    position: relative;
 }
 
 .info {
