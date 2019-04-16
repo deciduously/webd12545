@@ -3,12 +3,12 @@ body {
 }
 
 h1 {
-    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
 p {
-    font-style: italic
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 nav {
@@ -26,6 +26,7 @@ nav ul li {
     float: left;
     border-right: 1px dotted;
     border-bottom: 1px dotted;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 nav ul li a {
@@ -69,16 +70,11 @@ nav ul a:link {
 
 .wrapper .section-title {
     border-bottom: dashed 1px #000;
-    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
-.info {
-    width: 33%;
-    float: left;
-}
-
-.posts {
+.info, .posts {
     width: 33%;
     float: left;
 }
@@ -94,6 +90,8 @@ nav ul a:link {
 
 figure img {
     margin: 5px;
+    max-width: 200px;
+    height: auto;
 }
 
 figcaption {
@@ -111,4 +109,17 @@ figcaption {
 
 .clear {
     clear: both;
+}
+
+table {
+    border: 1px solid #000;
+}
+
+th {
+    border-bottom: dotted 1px #000;
+}
+
+td {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
 }

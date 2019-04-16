@@ -8,6 +8,7 @@
 
     <title>deciduously</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Roboto+Mono" rel="stylesheet">
 </head>
 
 <body>
@@ -21,49 +22,54 @@
     </nav>
     <div class="wrapper">
         <h1>deciduously.com - Home</h1>
-        <figure class="right">
-            <img src="../images/tree1.jpg" alt="An image of a tree" width=450 height=450 />
-            <figcaption>An image of a tree</figcaption>
-        </figure>
-        <div class="clear"></div>
         <div class="info section">
             <h2 class="section-title">Info</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla lorem ut metus suscipit
-                venenatis. Pellentesque tincidunt congue ligula, ut fringilla nisl imperdiet a. Nulla rutrum pulvinar
-                ligula, non vestibulum erat condimentum vel. In sit amet aliquam lorem, a ornare diam. Mauris sed mauris
-                leo. Quisque iaculis quis neque eu dapibus. Mauris blandit mauris sem, eget eleifend tellus consequat
-                ut.
-                Nulla in arcu non leo tempor scelerisque.</p>
+            <table class="left">
+                <th>
+                    The Various Places I Am
+                </th>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:ben@deciduously.com">ben@deciduously.com</a></td>
+                </tr>
+                <tr>
+                    <td>Discord</td>
+                    <td>deciduously#8939</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>867-5309</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href="https://dev.to/deciduously">
+                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Ben Lovy's DEV Profile"
+                                height="30" width="30" />
+                        </a></td>
+                </tr>
+            </table>
+            <figure class="right">
+                <img src="../images/tree1.jpg" alt="An image of a deciduous tree" width=450 height=450 />
+                <figcaption>A deciduous tree</figcaption>
+            </figure>
         </div>
         <div class="posts section">
             <h2 class="section-title">Posts</h2>
-            <p>Proin vehicula mauris ac risus ultrices maximus. Quisque sollicitudin in metus vel
-                sollicitudin. Suspendisse faucibus nisl vulputate varius rhoncus. Donec sit amet dolor turpis. Cras
-                sodales
-                auctor nibh, id tincidunt justo lobortis eu. Curabitur nec iaculis augue. Phasellus posuere convallis
-                nunc.
-                Sed nibh nunc, venenatis ac congue nec, rutrum id leo. Quisque eget odio tortor. Fusce sagittis mi sed
-                convallis porta. Curabitur tincidunt ex id pharetra cursus. Donec quis leo in massa commodo elementum
-                eget
-                eu libero. Mauris gravida rutrum urna, in feugiat velit congue sit amet. Phasellus sollicitudin lectus
-                quis
-                diam facilisis, in aliquam justo facilisis.</p>
+            <p>This is where there will be some blog posts!</p>
         </div>
         <div class="demos section">
             <h2 class="section-title">Demos</h2>
             <div class="demo">
-                <h3 class="demo-title">Dots</h3>
+                <a href="http://deciduously.com/dots/index.html">
+                    <h3 class="demo-title">Dots</h3>
+                </a>
                 <figure class="left">
                     <img src="../images/dots.png" alt="A screenshot of the dots game" width=640 height=540 />
                     <figcaption>A game of dots in play</figcaption>
                 </figure>
-                <p>ras at placerat est, sit amet accumsan sem. Phasellus tincidunt arcu magna, imperdiet luctus
-                    justo feugiat nec. Phasellus consequat quis est quis mollis. Maecenas sodales urna ligula, sed
-                    aliquet
-                    odio
-                    consequat sed. Ut et dui vestibulum, vehicula diam vel, fermentum nisl. Sed sem arcu, imperdiet vel
-                    massa
-                    vitae, cursus varius felis</p>
+                <p>This is a game where you click once per level and see how many of the bouncing dots you get, like <a
+                        href="http://www.k2xl.com/games/boomshine/">Boomshine</a>. It's done in Rust compiled to
+                    WebAssembly, drawing to a canvas element. The source code can be found <a
+                        href="https://github.com/deciduously/dots">here</a>.</p>
             </div>
         </div>
     </div>
