@@ -67,6 +67,12 @@ nav ul a:link {
     position: relative;
 }
 
+.wrapper .section-title {
+    border-bottom: dashed 1px #000;
+    font-weight: bold;
+    text-align: center;
+}
+
 .info {
     width: 33%;
     float: left;
@@ -82,6 +88,10 @@ nav ul a:link {
     float: right;
 }
 
+.section {
+    border: solid 1px #000;
+}
+
 figure img {
     margin: 5px;
 }
@@ -93,6 +103,10 @@ figcaption {
 
 .right {
     float: right;
+}
+
+.left {
+    float: left;
 }
 
 .clear {
