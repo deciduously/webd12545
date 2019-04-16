@@ -81,3 +81,20 @@ nav ul a:link {
     width: 33%;
     float: right;
 }
+
+figure img {
+    margin: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
