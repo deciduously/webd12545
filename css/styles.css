@@ -123,3 +123,30 @@ td {
     text-align: center;
     font-family: 'Dosis', sans-serif;
 }
+
+/* Form Styling */
+
+form {
+    border: 2px solid grey;
+    padding: 5px;
+    margin: auto;
+}
+
+input {
+    padding: 1px;
+}
+
+textarea {
+    background: lightgray;
+}
+
+.submit {
+    background-color: brown;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+/* End form style */

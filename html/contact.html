@@ -21,10 +21,18 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h1>Let's Talk</h1>
+    <h2>Let's Talk</h2>
     <form>
         <fieldset>
             <legend>Contact Info</legend>
+            <label for="honorific">Hon.</label>
+            <select>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="ms">Ms.</option>
+                <option value="dr">Dr.</option>
+                <option value="rev">Rev.</option>
+            </select>
             <label for="name">Your Name</label>
             <input id="name" type="text" value="Your Name">
             <label for="email">Your Email</label>
@@ -32,8 +40,8 @@
         </fieldset>
         <fieldset>
             <legend>Message</legend>
-            <label for="body">Message Body</label>
-            <textarea id="body" rows=10 cols=20></textarea>
+            <textarea id="body" rows=15 cols=25></textarea>
+            <br />
             <label for="contact-back">Need Response By</label>
             <input type="date" name="contact-back">
             <fieldset>
@@ -57,7 +65,7 @@
             <input type="checkbox" id="german" name="german">
             <label for="german">German</label>
         </fieldset>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" class="submit">
     </form>
 </body>
 
