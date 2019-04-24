@@ -21,7 +21,44 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <p>867-5309</p>
+    <h1>Let's Talk</h1>
+    <form>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="name">Your Name</label>
+            <input id="name" type="text" value="Your Name">
+            <label for="email">Your Email</label>
+            <input id="email" type="email" value="you@example.com">
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <label for="body">Message Body</label>
+            <textarea id="body" rows=10 cols=20></textarea>
+            <label for="contact-back">Need Response By</label>
+            <input type="date" name="contact-back">
+            <fieldset>
+                <legend>Nature of Message</legend>
+                <input type="radio" id="work" name="message-type" checked>
+                <label for="work">Work</label>
+                <input type="radio" id="friendly" name="message-type">
+                <label for="friendly">Friendly</label>
+                <input type="radio" id="antagonistic" name="message-type">
+                <label for="antagonistic">Antagonistic</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Languages Spoken</legend>
+            <input type="checkbox" id="english" name="english" checked>
+            <label for="english">English</label>
+            <input type="checkbox" id="spanish" name="spanish">
+            <label for="spanish">Spanish</label>
+            <input type="checkbox" id="french" name="french">
+            <label for="french">French</label>
+            <input type="checkbox" id="german" name="german">
+            <label for="german">German</label>
+        </fieldset>
+        <input type="submit" value="Send">
+    </form>
 </body>
 
 </html>
